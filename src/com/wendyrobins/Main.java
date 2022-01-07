@@ -1,7 +1,5 @@
 package com.wendyrobins;
 
-import javax.naming.Name;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -13,7 +11,10 @@ public class Main {
         System.out.println(fullName);
         System.out.println(NameGenerator.generateFullName("John", "Doe"));
 
+        System.out.println(createFullName("Peter", "Pan"));
     }
 
-
+    public static String createFullName(String firstName, String lastName){
+        return firstName + " " + lastName;
+    }
 }
