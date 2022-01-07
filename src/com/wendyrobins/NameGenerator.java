@@ -11,11 +11,22 @@ BONUS: removed "static" from generateFullName, refactor your code so you can cal
 package com.wendyrobins;
 
 public class NameGenerator {
-    public static void main(String[] args) {
-        System.out.println(generateFullName("Wendy", "Robins"));
+
+    private String fName;
+    private String lName;
+
+    // constructor blueprint
+    public NameGenerator(String fName, String lName){
+        this.fName = fName;
+        this.lName = lName;
+
     }
 
-    public static String generateFullName(String fName, String lName){
-        return  fName + " " + lName;
+
+    // method
+//    public static String generateFullName(String fName, String lName){
+    public String generateFullName(String fName, String lName){
+        return fName + " " + lName;
     }
+
 }
