@@ -70,7 +70,8 @@ public class UserInterface {
         System.out.println("Enter a STRING: ");     //string example: "Hello world"
         String inputString = scanner.nextLine();
 
-
+        // print back to user what they entered
+        System.out.println("======you entered the following======");
         System.out.println("NUMBER TYPES:");
         System.out.println("byte--> " + inputByte);
         System.out.println("short--> "  + inputShort);
