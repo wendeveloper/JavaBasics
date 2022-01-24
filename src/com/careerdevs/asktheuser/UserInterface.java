@@ -70,14 +70,21 @@ public class UserInterface {
         System.out.println("Enter a STRING: ");     //string example: "Hello world"
         String inputString = scanner.nextLine();
 
-//                inputByte + " " +
-//                inputShort + " " +
-//                inputInt + " " +
-//                inputFloat + " " +
-//                inputLong + " " +
-//                inputDouble + " " +
-//                inputBoolean + " " +
-//                inputString;
+
+        System.out.println("NUMBER TYPES:");
+        System.out.println("byte--> " inputByte);
+        System.out.println("short--> " inputShort);
+        System.out.println("int--> " inputInt);
+        System.out.println("float--> " inputFloat);
+        System.out.println("long--> " inputLong);
+        System.out.println("double--> " inputDouble);
+        System.out.println(" ");
+        System.out.println("BOOLEAN:");
+        System.out.println("boolean--> " inputBoolean);
+        System.out.println(" ");
+        System.out.println("STRING:");
+        System.out.println("string--> " inputString);
+
 
 
     }
