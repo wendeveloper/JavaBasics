@@ -72,19 +72,21 @@ public class UserInterface {
 
         // print back to user what they entered
         System.out.println("======you entered the following======");
-        System.out.println("NUMBER TYPES:");
-        System.out.println("byte--> " + inputByte);
-        System.out.println("short--> "  + inputShort);
-        System.out.println("int--> "  + inputInt);
-        System.out.println("float--> "  + inputFloat);
-        System.out.println("long--> "  + inputLong);
-        System.out.println("double--> "  + inputDouble);
-        System.out.println(" ");
-        System.out.println("BOOLEAN:");
-        System.out.println("boolean--> "  + inputBoolean);
-        System.out.println(" ");
-        System.out.println("STRING:");
-        System.out.println("string--> "  + inputString);
+
+        System.out.println("NUMBER TYPES:" + "\n" +
+                "byte--> " + inputByte + "\n" +
+                "short--> "  + inputShort + "\n" +
+                "int--> "  + inputInt + "\n" +
+                "float--> "  + inputFloat + "\n" +
+                "long--> "  + inputLong + "\n" +
+                "double--> "  + inputDouble + "\n" +
+                " " + "\n" +
+                "BOOLEAN:" + "\n" +
+                "boolean--> "  + inputBoolean + "\n" +
+                " " + "\n" +
+                "STRING:" + "\n" +
+                "string--> "  + inputString
+        );
 
 
 
